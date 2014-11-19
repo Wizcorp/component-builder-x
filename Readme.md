@@ -1,7 +1,17 @@
+[![NPM](https://nodei.co/npm/component-builder-x.png?downloads=true)](https://nodei.co/npm/component-builder-x/)
+
+[![Build Status](https://travis-ci.org/Wizcorp/component-builder-x.png)](https://travis-ci.org/Wizcorp/component-builder-x)
+
 # component-builder-x
 
 This project is a fork of component-builder with a few fixes applied to it that Wizcorp found to
 be useful. Usage is exactly the same as component-builder.
+
+## What's Fixed?
+
+* It doesn't [silenty fail to build half of your components when stack limits get exceeded](https://github.com/componentjs/builder.js/pull/137).
+* It doesn't [explode your open file limits](https://github.com/componentjs/builder.js/issues/66).
+* It doesn't [explode when you have malformed dependencies](https://github.com/Wizcorp/component-builder-x/issues/1).
 
 ## Installation
 

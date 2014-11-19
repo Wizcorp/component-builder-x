@@ -1,6 +1,6 @@
 {
   "name": "component-builder-x",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A fork of component-builder v0.10.0",
   "keywords": [
     "component",
@@ -16,6 +16,9 @@
   },
   "devDependencies": {
     "jshint": "*"
+  },
+  "engines": {
+    "node": ">=0.10"
   },
   "repository": {
     "type": "git",
