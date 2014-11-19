@@ -1,6 +1,6 @@
 {
   "name": "component-builder-x",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A fork of component-builder v0.10.0",
   "keywords": [
     "component",
@@ -16,14 +16,18 @@
     "string-to-js": "0.0.1"
   },
   "devDependencies": {
+    "ejs": "~0.8.3",
+    "jshint": "*",
     "mocha": "*",
     "should": "*",
-    "ejs": "~0.8.3",
     "styl": "0.2.2"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/Wizcorp/component-builder-x.git"
+  },
+  "scripts": {
+      "test": "node test"
   },
   "main": "index",
   "bugs": {
