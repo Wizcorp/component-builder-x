@@ -1,5 +1,10 @@
 # component-builder-x changelog
 
+##v0.1.3
+ * Put concurrency limits back in.
+ * Actually cache the json so we don't read the same file over and over and over again.
+ * Don't buildAliases for components you've already built aliases for.
+
 ##v0.1.2
  * Dropped node v0.8 support by changing setTimeout to setImmediate.
  * Removed concurrency limits in batch as they don't seem necessary.
