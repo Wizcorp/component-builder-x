@@ -12,10 +12,12 @@ be useful. Usage is exactly the same as component-builder.
 * It doesn't [silenty fail to build half of your components when stack limits get exceeded](https://github.com/componentjs/builder.js/pull/137).
 * It doesn't [explode your open file limits](https://github.com/componentjs/builder.js/issues/66).
 * It doesn't [explode when you have malformed dependencies](https://github.com/Wizcorp/component-builder-x/issues/1).
+* It doesn't [repeatedly build the same aliases over and over and over and over again](https://github.com/componentjs/builder.js/issues/117).
+* It doesn't [repeatedly read the same component.json files over and over and over again](https://github.com/componentjs/builder.js/issues/66)
 
 ## Installation
 
-    $ npm install component-builder
+    $ npm install component-builder-x
 
 ## API
 
@@ -24,7 +26,7 @@ be useful. Usage is exactly the same as component-builder.
   Creates a new `Builder` for the given component's `dir`:
 
 ```js
-var Builder = require('component-builder');
+var Builder = require('component-builder-x');
 var builder = new Builder('components/visionmedia-page');
 ```
 
